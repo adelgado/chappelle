@@ -1,12 +1,13 @@
 local routes = {}
 
--- Attaches a handler to a get request on a route
-local get = function (route, handler)
-	if not routes[route] or type(routes[route]) ~= 'table' then
-		routes[route] = {}
-	end
+local make_resource = function (method)
+	return function (route, handler)
+		if not routes[route] or type(routes[route]) ~= 'table' then
+			routes[route] = {}
+		end
 
-	routes[route]['get'] = handler
+		routes[route][method] = handler
+	end
 end
 
 local start = function(port)
@@ -14,5 +15,8 @@ local start = function(port)
 end
 
 return {
-	get = get
+	get    = make_resource 'get'
+	post   = make_resource 'post'
+	put    = make_resource 'put'
+	delete = make_resource 'delete'
 }

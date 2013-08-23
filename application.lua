@@ -1,12 +1,12 @@
-local routes = {}
+local resources = {}
 
 local make_resource = function (method)
-	return function (route, handler)
-		if not routes[route] or type(routes[route]) ~= 'table' then
-			routes[route] = {}
+	return function (resource_match, handler)
+		if type(resources[resource_match]) ~= 'table' then
+			routes[resource_match] = {}
 		end
 
-		routes[route][method] = handler
+		routes[resource_match][method] = handler
 	end
 end
 

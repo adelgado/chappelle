@@ -1,4 +1,4 @@
 for file in tests/*.test.lua
 do
-	lua $file
+	luvit $file
 done

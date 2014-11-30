@@ -1,0 +1,31 @@
+#!/bin/bash
+
+GREEN='\e[0;32m'
+RED='\e[0;31m'
+RESET='\e[0m'
+
+ACTION=$1
+
+if [ $ACTION = "start" ]
+then
+  PATH=/usr/local/openresty/nginx/sbin:$PATH
+  export PATH
+  nginx -p `pwd`/ -c conf/nginx.conf
+
+  if [ $? -ne 0 ]; then
+    echo -e "$RED[chappelle]$RESET: cant start nginx with -p $(pwd)/ -c conf/nginx.conf"
+    exit 1
+  fi
+  echo -e "${GREEN}[chappelle]${RESET}: started"
+fi
+
+if [ $ACTION = "stop" ]
+then
+  NGINXPID=$(cat logs/nginx.pid)
+  if [ $? -ne 0 ]; then
+    echo -e "$RED[chappelle]$RESET: error while stopping"
+    exit 1
+  fi
+  kill -QUIT $NGINXPID
+  echo -e "${GREEN}[chappelle]${RESET}: stopped"
+fi

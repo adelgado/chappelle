@@ -82,3 +82,22 @@ coroutine 0:
 2014/11/30 12:59:37 [emerg] 58920#0: bind() to 0.0.0.0:8070 failed (48: Address already in use)
 2014/11/30 13:00:05 [notice] 58957#0: signal process started
 2014/11/30 13:00:05 [alert] 58957#0: kill(58571, 15) failed (3: No such process)
+2014/11/30 19:32:38 [error] 14542#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:32:38 [error] 14542#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:34:43 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:34:43 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:34:43 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:34:56 [emerg] 15324#0: bind() to 0.0.0.0:8070 failed (98: Address already in use)
+2014/11/30 19:34:56 [emerg] 15324#0: bind() to 0.0.0.0:8070 failed (98: Address already in use)
+2014/11/30 19:34:56 [emerg] 15324#0: bind() to 0.0.0.0:8070 failed (98: Address already in use)
+2014/11/30 19:34:56 [emerg] 15324#0: bind() to 0.0.0.0:8070 failed (98: Address already in use)
+2014/11/30 19:34:56 [emerg] 15324#0: bind() to 0.0.0.0:8070 failed (98: Address already in use)
+2014/11/30 19:34:56 [emerg] 15324#0: still could not bind()
+2014/11/30 19:35:01 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:01 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:02 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:02 [error] 15242#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:21 [error] 15493#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:31 [error] 15493#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:31 [error] 15493#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2014/11/30 19:35:31 [error] 15493#0: *1 failed to load external Lua file "/home/l/Workspace/chappelle/chapelle.lua": cannot open /home/l/Workspace/chappelle/chapelle.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"

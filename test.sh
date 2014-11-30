@@ -1,4 +1,5 @@
 for file in tests/*.test.lua
 do
-	lua $file
+	echo "running $file"
+	luanode $file
 done

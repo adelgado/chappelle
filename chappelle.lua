@@ -5,7 +5,7 @@ local chappelle = {}
 local resources = {}
 local settings  = {}
 
---- Creates the server and listen on a port
+--- Create server and listen on a port
 -- @param port The port to listen on
 function chappelle.listen(port)
 	http.createServer(function (req, res)

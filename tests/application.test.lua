@@ -1,11 +1,7 @@
-local app = require '../application'
+local app = require '../chappelle'
 
 app.get('/', function (req, res)
-	res.send 'falaê, mundo!'
+	res:finish 'hello world'
 end)
 
-app.post('/', function (req, res)
-
-end)
-
-app.start(8080)
+app.listen(8080)

@@ -13,7 +13,7 @@ case "$ACTION" in
     nginx -p `pwd`/ -c conf/nginx.conf
 
     if [ $? -ne 0 ]; then
-      echo -e "$RED[chappelle]$RESET: cant start nginx with -p $(pwd)/ -c conf/nginx.conf"
+      echo -e "${RED}[chappelle]${RESET}: cant start nginx with -p $(pwd)/ -c conf/nginx.conf"
       exit 1
     fi
     echo -e "${GREEN}[chappelle]${RESET}: started"
@@ -22,7 +22,7 @@ case "$ACTION" in
   stop)
     NGINXPID=$(cat logs/nginx.pid)
     if [ $? -ne 0 ]; then
-      echo -e "$RED[chappelle]$RESET: error while stopping"
+      echo -e "$RED[chappelle]$RESET: cant find pid to stop"
       exit 1
     fi
     kill -QUIT $NGINXPID

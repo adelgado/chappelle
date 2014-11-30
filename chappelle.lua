@@ -1,13 +1,12 @@
-local http = require'luanode.http'
-
 local chappelle = {}
 
 local resources = {}
 local settings  = {}
 
+ngx.say('hello world')
 --- Create server and listen on a port
 -- @param port The port to listen on
-function chappelle.listen(port)
+function chappelle.listen(port, host)
 	http.createServer(function (req, res)
 		print(req.method, req.url)
 
@@ -55,4 +54,4 @@ local function error_404(req, res)
 	res:finish(body)
 end
 	
-return chappelle
+--return chappelle

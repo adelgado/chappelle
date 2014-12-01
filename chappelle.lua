@@ -1,7 +1,9 @@
+local u = require'util'
 local chappelle = {}
-
 local resources = {}
 local settings  = {}
+
+print(u.tprint(ngx))
 
 ngx.say('hello world')
 --- Create server and listen on a port

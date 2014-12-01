@@ -1,5 +1,7 @@
+local u = require'util'
 local resources = {}
 local settings  = {}
+local chappelle = {}
 
 local function has_handler()
 	return false

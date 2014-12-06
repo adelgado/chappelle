@@ -73,35 +73,3 @@ function chappelle.listen(port)
 end
 
 return chappelle
---local function make_resource(method)
---	return function(resource_match, handler)
---		if type(resources[resource_match]) ~= 'table' then
---			resources[resource_match] = {}
---		end
---
---		resources[resource_match][method] = handler
---	end
---end
---
---local function has_handler(url, method)
---	if type(resources[url])  ~= 'table' then
---		return false
---	end
---
---	if type(resources[url][method]) ~= 'function' then
---		return false
---	end
---
---	return true
---end
---
---local function error_404(req, res)
---	res:writeHead(404, {
---		["Content-Type"] = "text/plain",
---		["Content-Length"] = #body
---	})
---	res:finish(body)
---end
---	
-----return chappelle
---

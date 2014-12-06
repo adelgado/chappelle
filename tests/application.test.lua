@@ -4,4 +4,4 @@ app.get('/', function (req, res)
 	res:finish 'hello world'
 end)
 
-app.listen(8080)
+app.start()

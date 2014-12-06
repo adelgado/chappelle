@@ -1,13 +1,14 @@
-local M = {}
+local decode = require('cjson').decode
 
 -- options: bodyMaxSize etc
--- decode: function to decode the json, if none provided will try to use cjson
-function bodyparser.json(options, decode)
-  _decode = decode or require('cjson').decode
+return function (options)
   return function (req, res, next)
-    req.body = _decode(req.raw_body)
+    local content_type = req.get_header('Content-Type')
+
+    if(content_type == 'application/json') then
+      req.body = decode(req.raw_body)
+    end
+
     return next()
   end
 end
-
-return M

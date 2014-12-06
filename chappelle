@@ -21,15 +21,20 @@ case "$ACTION" in
 
   stop)
     NGINXPID=$(cat logs/nginx.pid)
+    PWD=$(pwd)
     if [ $? -ne 0 ]; then
-      echo -e "$RED[chappelle]$RESET: cant find pid to stop"
+      echo -e "$RED[chappelle]$RESET: cant find 'nginx.pid' at at $PWD/logs"
       exit 1
     fi
     kill -QUIT $NGINXPID
     echo -e "${GREEN}[chappelle]${RESET}: stopped"
     ;;
 
+  restart)
+    ./chappelle stop && ./chappelle start
+    ;;
+    
   *)
-    echo "[chappelle] usage: chappelle start|stop"
+    echo "[chappelle] usage: chappelle start|stop|restart"
     ;;
 esac

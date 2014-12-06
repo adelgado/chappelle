@@ -1,5 +1,6 @@
 require'util'
 
+	print"Challing chappelle.use with middleware"
 local chappelle = {}
 
 local application_middlewares = {}
@@ -7,6 +8,7 @@ local route_middlewares = {}
 
 -- register a application middleware to be used, ORDER MATTERS!
 function chappelle.use(middleware)
+	print(middleware)
 	table.insert(application_middlewares, middleware)
 end
 
@@ -58,6 +60,7 @@ function chappelle.listen(port)
 	--fazer match primeiro pra dar 404 antes de comçear a parsear as coisas
 	local current_middleware_index = 1
 
+	print('Qualé mermão')
 	local next = function()
 		current_middleware_index = current_middleware_index + 1
 		local current_middleware = middleware_chain[current_middleware_index]
@@ -66,6 +69,7 @@ function chappelle.listen(port)
 			return error('can not call "next" on last middleware of the chain')
 		end
 
+		print('Qualé mermão')
 		current_middleware(req, res, next)
 	end
 

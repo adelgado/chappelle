@@ -65,3 +65,48 @@ function table.concatenate(t1, t2)
   return t3
 end
 
+
+transofrm = function (rota)
+  match = string.match(rota, ':')
+  if not match then
+    return rota -- route has no variables
+  end
+
+  local amountOfVariables
+  for a in string.gmatch(rota, ':') do
+    amountOfVariables = amountOfVariables + 1
+  end
+
+  local route = '' for i in 1,amountOfVariables do recursviveluy split a
+  variavel no : e vai epgando cada string posterios, aí para a string em si a
+  getne adiciona na strin gque vai ser retornaada comosendo a regex, e para o
+  lucar aonde foi encontrado essa tr9ng a getne coloca um códigoq eua gente já
+  sabe que é uma captua desse tipo (no caso, seri alago como'(%a-)'). aí a
+  gente teria que aamrzenar tmambém a quantidade de variáveos juntoq cpm a
+  rota, porque caso contrário a geente não saberia exatamente quantos
+  argumetnos experar que uma rotas especícfica produza
+
+
+
+  return pattern
+end
+
+local request
+local match
+
+for i from 0 to #rotas do
+  match = matchRoute(rotas[i])
+  if match then
+    break
+  end
+end
+
+function rota(rota)
+
+  params = {}
+  for param in string.gmatch(rota, ':(%a-)') do
+    params[#params + 1] = param
+  end
+
+  return params
+end

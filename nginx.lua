@@ -1,5 +1,12 @@
+require'util'
+
 -- middleware acting as a ngx connector
-return function (req, res, next)
+return function (req, res, done)
+  log'nginx'
+  log(req)
+  log(res)
+  log(done)
+
 
   local original_url = ngx.var.request_uri
 
@@ -19,5 +26,5 @@ return function (req, res, next)
 
   res.send = ngx.print
 
-  next()
+  done()
 end

@@ -1,6 +1,5 @@
 require'util'
 
-	print"Challing chappelle.use with middleware"
 local chappelle = {}
 
 local application_middlewares = {}
@@ -54,26 +53,52 @@ function chappelle.listen(port)
 
 	local middleware_chain = table.concatenate(application_middlewares, matched.middlewares)
 
-	ngx.say(table.tostring(application_middlewares))
-	ngx.say(table.tostring(matched.middlewares))
-	ngx.say(table.tostring(middleware_chain))
-	--fazer match primeiro pra dar 404 antes de comçear a parsear as coisas
+	log('application_middlewares')
+	log(application_middlewares)
+
+	log'middleware chain'
+	log(middleware_chain)
+
+	log(#middleware_chain)
+
+	-- Antes de qualquer lógica de ver se o match existe a boa é dar um 404 pra não gastar processamento
+	-- fazer match primeiro pra dar 404 antes de começar a parsear as coisas
 	local current_middleware_index = 1
 
-	print('Qualé mermão')
-	local next = function()
+	local done2 = function()
 		current_middleware_index = current_middleware_index + 1
+		log'should be 2'
+		log(current_middleware_index)
 		local current_middleware = middleware_chain[current_middleware_index]
+		log'should be function'
+		log(type(current_middleware))
 
-		if (type(current_middleware) == nil) then
+		if type(current_middleware) == "nil" then
 			return error('can not call "next" on last middleware of the chain')
 		end
 
-		print('Qualé mermão')
-		current_middleware(req, res, next)
+		-- current_middleware(req, res, done)
 	end
 
-	middleware_chain[current_middleware_index](req, res, next)
+	local done = function()
+		current_middleware_index = current_middleware_index + 1
+		log'should be 2'
+		log(current_middleware_index)
+		local current_middleware = middleware_chain[current_middleware_index]
+		log'should be function'
+		log(type(current_middleware))
+
+		if type(current_middleware) == "nil" then
+			return error('can not call "next" on last middleware of the chain')
+		end
+
+		current_middleware(req, res, done)
+	end
+
+	log'should be a function'
+	log(type(middleware_chain[current_middleware_index]))
+
+	middleware_chain[current_middleware_index](req, res, done)
 end
 
 return chappelle

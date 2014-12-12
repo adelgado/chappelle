@@ -2,12 +2,6 @@ require'util'
 
 -- middleware acting as a ngx connector
 return function (req, res, done)
-  log'nginx'
-  log(req)
-  log(res)
-  log(done)
-
-
   local original_url = ngx.var.request_uri
 
   req.original_url = original_url
@@ -24,7 +18,17 @@ return function (req, res, done)
     return req.headers[header:lower()]
   end
 
-  res.send = ngx.print
+  res.send   = ngx.print
+
+  res.finish = function(body)
+    -- status = res.status() or 500
+    -- headers = self.get_all_headers()
+    -- ngx.res.set_headers()
+    -- ngx.res.status = status
+    -- body = body  or res.body()
+    ngx.print(body)
+    ngx.flush()
+  end
 
   done()
 end

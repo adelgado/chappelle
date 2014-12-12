@@ -1,7 +1,9 @@
 local app   = require('chappelle')
-local nginx = require('nginx')
 local json  = require('bodyparser')
 require'util'
+
+local chappelle = require('chappelle')
+local nginx     = require('./connectors/nginx')
 
 app.use(nginx)
 

@@ -100,4 +100,6 @@ function chappelle.start()
 	middleware_chain[current_middleware_index](req, res, done)
 end
 
-return chappelle
+return function ()
+	return chappelle
+end

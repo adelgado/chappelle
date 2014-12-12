@@ -1,18 +1,20 @@
-local app   = require('chappelle')
-local json  = require('bodyparser')
+-- TODO Make it into a table
 require'util'
 
 local chappelle = require('chappelle')
 local nginx     = require('./connectors/nginx')
 
+local app = chappelle()
+
 app.use(nginx)
 
-app.use(json())
+app.use(function (req, res, done)
+	done()
+end)
 
 app.get('/', function (req, res)
-	log'socorramme estou numa rota'
-	log(req)
-  res.send(req.raw_body)
+	-- res.status(420).finish('hello world')
+	res.finish('hello world')
 end)
 
 app.start()

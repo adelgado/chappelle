@@ -15,6 +15,4 @@ app.get('/', function (req, res)
   res.send(req.raw_body)
 end)
 
-app.listen()
-
---app.listen(1234)
+app.start()

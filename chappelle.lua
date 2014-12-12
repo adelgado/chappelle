@@ -41,8 +41,7 @@ function chappelle.delete(path, middlewares)
 	create_route('DELETE', path, middlewares)
 end
 
-
-function chappelle.listen(port)
+function chappelle.start()
 	-- tables that will be passed to the middleware chain
 	-- to compose req & res objects
 	local req = {}

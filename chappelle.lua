@@ -46,7 +46,7 @@ function chappelle.listen(port)
 	-- tables that will be passed to the middleware chain
 	-- to compose req & res objects
 	local req = {}
-	local res = {}
+	local res = require'response'
 
 	--match de rota
 	local matched = route_middlewares[1]

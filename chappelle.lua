@@ -1,13 +1,25 @@
 require'util'
 
+log':::::::::::::::::::::::::::::::::::::'
+log'has {started}'
 local chappelle = {}
 
 local application_middlewares = {}
 local route_middlewares = {}
 
+
+local match_route = function (req, res, continue)
+	for i, v in ipairs(route_middlewares) do
+		if v.method == req.method then
+			if v.path == req.path then
+				return v
+			end
+		end
+	end
+end
+
 -- register a application middleware to be used, ORDER MATTERS!
 function chappelle.use(middleware)
-	print(middleware)
 	table.insert(application_middlewares, middleware)
 end
 
@@ -42,7 +54,7 @@ function chappelle.delete(path, middlewares)
 end
 
 
-function chappelle.listen(port)
+function chappelle.start()
 	-- tables that will be passed to the middleware chain
 	-- to compose req & res objects
 	local req = {}
@@ -53,15 +65,6 @@ function chappelle.listen(port)
 
 	local middleware_chain = table.concatenate(application_middlewares, matched.middlewares)
 
-	--log('application_middlewares')
-	--log(application_middlewares)
-	--log'middleware chain'
-	--log(middleware_chain)
-	--log'middleware chain'
-	--log(#middleware_chain)
-
-	-- Antes de qualquer lógica de ver se o match existe a boa é dar um 404 pra não gastar processamento
-	-- fazer match primeiro pra dar 404 antes de começar a parsear as coisas
 	local current_middleware_index = 0
 
 	local function continue()

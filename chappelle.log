@@ -1,598 +1,269 @@
-qualéqualéqualé
-qualé
-chappellechappellechappellechappelletable: 0x057740a8
 
-
-chappelletable: 0x05774068
-
-
-chappelletable: 0x057740b0
-chappelletable: 0x057740b0
-chappelle: table: 0x057740b0
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: application_middlewares
-chappelle: table: 0x0576e978
-chappelle: middleware chain
-chappelle: table: 0x057741d0
-chappelle: 3
-chappelle: application_middlewares
-chappelle: table: 0x0576e240
-chappelle: middleware chain
-chappelle: table: 0x05774208
-chappelle: 3
-chappelle: should be 2
-chappelle: 2
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: middleware chain
-chappelle: table: 0x05774370
-chappelle: 3
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: middleware chain
-chappelle: table: 0x05774370
-chappelle: 3
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: middleware chain
-chappelle: table: 0x05774370
-chappelle: 3
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: middleware chain
-chappelle: table: 0x057743c8
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: middleware chain
-chappelle: table: 0x05774228
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bb70
-chappelle: middleware chain
-chappelle: table: 0x05774228
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bd80
-chappelle: middleware chain
-chappelle: table: 0x05774200
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b8b8
-chappelle: middleware chain
-chappelle: table: 0x057741d0
-chappelle: 1
-chappelle: should be a function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b8b8
-chappelle: middleware chain
-chappelle: table: 0x057741d0
-chappelle: 1
-chappelle: should be a function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bd80
-chappelle: middleware chain
-chappelle: table: 0x05774200
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bd80
-chappelle: middleware chain
-chappelle: table: 0x05774200
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576bd80
-chappelle: middleware chain
-chappelle: table: 0x05774200
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x057741e8
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x057741e8
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x057741e8
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x05774300
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: table: 0x057742b0
-chappelle: table: 0x057742d8
-chappelle: 
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x05774300
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: table: 0x057742b0
-chappelle: table: 0x057742d8
-chappelle: function: 0x05774498
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x05774300
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: table: 0x057742b0
-chappelle: table: 0x057742d8
-chappelle: function: 0x05774498
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576c138
-chappelle: middleware chain
-chappelle: table: 0x05774300
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: table: 0x057742b0
-chappelle: table: 0x057742d8
-chappelle: function: 0x05774498
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x057691c0
-chappelle: middleware chain
-chappelle: table: 0x05774330
-chappelle: 2
-chappelle: should be a function
-chappelle: function
-chappelle: table: 0x057742e0
-chappelle: table: 0x05774308
-chappelle: function: 0x057744c8
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b808
-chappelle: middleware chain
-chappelle: table: 0x05774650
-chappelle: 3
-chappelle: should be a function
-chappelle: function
+chappelle: function: 0x41e69068
 chappelle: nginx
-chappelle: table: 0x05774600
-chappelle: table: 0x05774628
-chappelle: function: 0x057747f8
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b808
-chappelle: middleware chain
-chappelle: table: 0x05774650
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: nginx
-chappelle: table: 0x05774600
-chappelle: table: 0x05774628
-chappelle: function: 0x057747f8
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b808
-chappelle: middleware chain
-chappelle: table: 0x05774b90
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: nginx
-chappelle: table: 0x05774b40
-chappelle: table: 0x05774b68
-chappelle: function: 0x05774da0
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: bodyparser
-chappelle: should be 2
-chappelle: 3
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b808
-chappelle: middleware chain
-chappelle: table: 0x05774bb8
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: nginx
-chappelle: table: 0x05774b68
-chappelle: table: 0x05774b90
-chappelle: function: 0x05774dc8
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: bodyparser
-chappelle: should be 2
-chappelle: 3
-chappelle: should be function
-chappelle: function
-chappelle: application_middlewares
-chappelle: table: 0x0576b808
-chappelle: middleware chain
-chappelle: table: 0x05774bb8
-chappelle: 3
-chappelle: should be a function
-chappelle: function
-chappelle: nginx
-chappelle: table: 0x05774b68
-chappelle: table: 0x05774b90
-chappelle: function: 0x05774dc8
-chappelle: should be 2
-chappelle: 2
-chappelle: should be function
-chappelle: function
-chappelle: bodyparser
-chappelle: nginx
-chappelle: table: 0x413a2368
-chappelle: table: 0x413a2390
-chappelle: function: 0x413a2410
+chappelle: table: 0x41e6c610
+chappelle: table: 0x41e6c638
+chappelle: function: 0x41e6c6b8
 chappelle: bodyparser
 chappelle: socorramme estou numa rota
 chappelle: nil
+chappelle: function: 0x4192b068
 chappelle: nginx
-chappelle: table: 0x40ae4368
-chappelle: table: 0x40ae4390
-chappelle: function: 0x40ae4410
+chappelle: table: 0x4192e610
+chappelle: table: 0x4192e638
+chappelle: function: 0x4192e6b8
 chappelle: bodyparser
 chappelle: socorramme estou numa rota
 chappelle: nil
+chappelle: nginx >>>>>>>>>
+chappelle: function: 0x4181a098
 chappelle: nginx
-chappelle: table: 0x417d0368
-chappelle: table: 0x417d0390
-chappelle: function: 0x417d0410
+chappelle: table: 0x4181d670
+chappelle: table: 0x4181d698
+chappelle: function: 0x4181d718
 chappelle: bodyparser
 chappelle: socorramme estou numa rota
 chappelle: nil
+chappelle: nginx >>>>>>>>>
+chappelle: function: 0x41819098
 chappelle: nginx
-chappelle: table: 0x404a1368
-chappelle: table: 0x404a1390
-chappelle: function: 0x404a1410
+chappelle: table: 0x4181c670
+chappelle: table: 0x4181c698
+chappelle: function: 0x4181c718
 chappelle: bodyparser
 chappelle: socorramme estou numa rota
 chappelle: nil
-chappelle: nginx
-chappelle: table: 0x40e19368
-chappelle: table: 0x40e19390
-chappelle: function: 0x40e19410
+chappelle: nginx >>>>>>>>>
+chappelle: function: 0x413f4db8
+chappelle: is using nginx as connector
+chappelle: table: 0x413f8678
+chappelle: table: 0x413f86a0
+chappelle: function: 0x413f8720
 chappelle: bodyparser
 chappelle: socorramme estou numa rota
 chappelle: nil
-chappelle: nginx
-chappelle: table: 0x40b55368
-chappelle: table: 0x40b55390
-chappelle: function: 0x40b55410
+chappelle: nginx >>>>>>>>>
+chappelle: function: 0x4021cdb8
+chappelle: is using nginx as connector
+chappelle: table: 0x40220678
+chappelle: table: 0x402206a0
+chappelle: function: 0x40220720
 chappelle: bodyparser
 chappelle: socorramme estou numa rota
 chappelle: nil
-chappelle: nginx
-chappelle: table: 0x41e23368
-chappelle: table: 0x41e23390
-chappelle: function: 0x41e23410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x415c5368
-chappelle: table: 0x415c5390
-chappelle: function: 0x415c5410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x41f86368
-chappelle: table: 0x41f86390
-chappelle: function: 0x41f86410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x40e2b368
-chappelle: table: 0x40e2b390
-chappelle: function: 0x40e2b410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x4115d368
-chappelle: table: 0x4115d390
-chappelle: function: 0x4115d410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x41eab368
-chappelle: table: 0x41eab390
-chappelle: function: 0x41eab410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x41f65368
-chappelle: table: 0x41f65390
-chappelle: function: 0x41f65410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x40953368
-chappelle: table: 0x40953390
-chappelle: function: 0x40953410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x40a4b368
-chappelle: table: 0x40a4b390
-chappelle: function: 0x40a4b410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x412b7368
-chappelle: table: 0x412b7390
-chappelle: function: 0x412b7410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x410ed368
-chappelle: table: 0x410ed390
-chappelle: function: 0x410ed410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx
-chappelle: table: 0x40dcc368
-chappelle: table: 0x40dcc390
-chappelle: function: 0x40dcc410
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x41aff558
-chappelle: table: 0x41aff580
-chappelle: function: 0x41aff600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x40a6a558
-chappelle: table: 0x40a6a580
-chappelle: function: 0x40a6a600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x405f8558
-chappelle: table: 0x405f8580
-chappelle: function: 0x405f8600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x415bf558
-chappelle: table: 0x415bf580
-chappelle: function: 0x415bf600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x409d9558
-chappelle: table: 0x409d9580
-chappelle: function: 0x409d9600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x40644558
-chappelle: table: 0x40644580
-chappelle: function: 0x40644600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x40d5a558
-chappelle: table: 0x40d5a580
-chappelle: function: 0x40d5a600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x41ab9558
-chappelle: table: 0x41ab9580
-chappelle: function: 0x41ab9600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x4185a558
-chappelle: table: 0x4185a580
-chappelle: function: 0x4185a600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x410d1558
-chappelle: table: 0x410d1580
-chappelle: function: 0x410d1600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x41a8a580
-chappelle: table: 0x41a8a5a8
-chappelle: function: 0x41a8a628
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x41aa2580
-chappelle: table: 0x41aa25a8
-chappelle: function: 0x41aa2628
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x4191a558
-chappelle: table: 0x4191a580
-chappelle: function: 0x4191a600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x40228558
-chappelle: table: 0x40228580
-chappelle: function: 0x40228600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x4020f558
-chappelle: table: 0x4020f580
-chappelle: function: 0x4020f600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x40413558
-chappelle: table: 0x40413580
-chappelle: function: 0x40413600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x4109d558
-chappelle: table: 0x4109d580
-chappelle: function: 0x4109d600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: aaa
-chappelle: nginx
-chappelle: table: 0x4044f558
-chappelle: table: 0x4044f580
-chappelle: function: 0x4044f600
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
+[chappelle]: nginx >>>>>>>>>
+[chappelle]: function: 0x40366db8
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x4036a678
+[chappelle]: table: 0x4036a6a0
+[chappelle]: nil
+[chappelle]: bodyparser
+[chappelle]: socorramme estou numa rota
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x418f9408
+[chappelle]: table: 0x418f9430
+[chappelle]: nil
+[chappelle]: bodyparser
+[chappelle]: socorramme estou numa rota
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x403b3408
+[chappelle]: table: 0x403b3430
+[chappelle]: nil
+[chappelle]: bodyparser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x40fe2408
+[chappelle]: table: 0x40fe2430
+[chappelle]: nil
+[chappelle]: bodyparser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x41346480
+[chappelle]: table: 0x413464a8
+[chappelle]: nil
+[chappelle]: is using a json body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x41b1d480
+[chappelle]: table: 0x41b1d4a8
+[chappelle]: nil
+[chappelle]: is using a json body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x41e9f480
+[chappelle]: table: 0x41e9f4a8
+[chappelle]: nil
+[chappelle]: is using a [json] body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x41a44480
+[chappelle]: table: 0x41a444a8
+[chappelle]: nil
+[chappelle]: is using a [json] body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x40140480
+[chappelle]: table: 0x401404a8
+[chappelle]: nil
+[chappelle]: is using a [json] body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x40fd0480
+[chappelle]: table: 0x40fd04a8
+[chappelle]: nil
+[chappelle]: is using a [json] body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: is starting :)
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x410e74d0
+[chappelle]: table: 0x410e74f8
+[chappelle]: nil
+[chappelle]: is using a [json] body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: has started :)
+[chappelle]: is using nginx as connector
+[chappelle]: table: 0x41ae94d0
+[chappelle]: table: 0x41ae94f8
+[chappelle]: nil
+[chappelle]: is using a [json] body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: has started :)
+[chappelle]: is using {nginx} as connector
+[chappelle]: table: 0x416594d0
+[chappelle]: table: 0x416594f8
+[chappelle]: nil
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: has {started} :)
+[chappelle]: is using {nginx} as connector
+[chappelle]: table: 0x41e8c4d0
+[chappelle]: table: 0x41e8c4f8
+[chappelle]: nil
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: ::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: socorramme estou numa rota
+[chappelle]: body
+[chappelle]: nil
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: hit "/"
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: delete me!
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: delete me!
+[chappelle]: :::::::::::::::::::::::::::::::::::::
+[chappelle]: has {started}
+[chappelle]: delete me!
+[chappelle]: is using {nginx} as connector
+[chappelle]: is using a {json} body parser
+[chappelle]: hit "/"[chappelle]{2015-01-27 00:01:12}::::::::::::::::::::::::::::::::::::::
+[chappelle]{2015-01-27 00:01:12}:has {started}
+[chappelle]{2015-01-27 00:01:12}:is using {nginx} as connector
+[chappelle]{2015-01-27 00:01:12}:/
+[chappelle]{2015-01-27 00:01:12}:is using a {json} body parser
+[chappelle]{2015-01-27 00:01:12}:hit "/"
+[chappelle]{2015-01-27 00:01:20}::::::::::::::::::::::::::::::::::::::
+[chappelle]{2015-01-27 00:01:20}:has {started}
+[chappelle]{2015-01-27 00:01:20}:is using {nginx} as connector
+[chappelle]{2015-01-27 00:01:20}:/
+[chappelle]{2015-01-27 00:01:20}:is using a {json} body parser
+[chappelle]{2015-01-27 00:01:20}:hit "/"
+[chappelle]{2015-01-27 00:01:51}: :::::::::::::::::::::::::::::::::::::
+[chappelle]{2015-01-27 00:01:51}: has {started}
+[chappelle]{2015-01-27 00:01:51}: is using {nginx} as connector
+[chappelle]{2015-01-27 00:01:51}: /
+[chappelle]{2015-01-27 00:01:51}: is using a {json} body parser
+[chappelle]{2015-01-27 00:01:51}: hit "/"
+[chappelle]{2015-01-27 04:01:49}: :::::::::::::::::::::::::::::::::::::
+[chappelle]{2015-01-27 04:01:49}: has {started}
+[chappelle]{2015-01-27 04:01:49}: is using {nginx} as connector
+[chappelle]{2015-01-27 04:01:49}: /
+[chappelle]{2015-01-27 04:01:49}: is using a {json} body parser
+[chappelle]{2015-01-27 04:01:49}: hit "/"
+[chappelle]{2015-01-27 04:01:51}: :::::::::::::::::::::::::::::::::::::
+[chappelle]{2015-01-27 04:01:51}: has {started}
+[chappelle]{2015-01-27 04:01:51}: is using {nginx} as connector
+[chappelle]{2015-01-27 04:01:51}: /
+[chappelle]{2015-01-27 04:01:51}: is using a {json} body parser
+[chappelle]{2015-01-27 04:01:51}: hit "/"
+[chappelle]{2015-01-27 04:01:51}: :::::::::::::::::::::::::::::::::::::
+[chappelle]{2015-01-27 04:01:51}: has {started}
+[chappelle]{2015-01-27 04:01:51}: is using {nginx} as connector
+[chappelle]{2015-01-27 04:01:51}: /
+[chappelle]{2015-01-27 04:01:51}: is using a {json} body parser
+[chappelle]{2015-01-27 04:01:51}: hit "/"

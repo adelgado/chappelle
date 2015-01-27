@@ -1,11 +1,8 @@
 require'util'
 
 -- middleware acting as a ngx connector
-return function (req, res, done)
-  log'nginx'
-  log(req)
-  log(res)
-  log(done)
+return function (req, res, continue)
+  log'is using {nginx} as connector'
 
 
   local original_url = ngx.var.request_uri
@@ -20,11 +17,12 @@ return function (req, res, done)
   req.ip           = ngx.var.remote_addr
   req.path         = original_url:match("(.-)%?") or original_url
 
+  log(req.path)
   req.get_header = function(header)
     return req.headers[header:lower()]
   end
 
   res.send = ngx.print
 
-  done()
+  continue()
 end

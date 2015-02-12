@@ -1,3 +1,6 @@
+package.path = package.path .. ";./src/?.lua"
+
+
 local app   = require('chappelle')
 local nginx = require('connectors/nginx')
 local json  = require('bodyparser')

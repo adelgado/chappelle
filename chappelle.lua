@@ -1,22 +1,10 @@
 require'util'
 
-log':::::::::::::::::::::::::::::::::::::'
-log'has {started}'
-local chappelle = {}
 
-local application_middlewares = {}
-local route_middlewares = {}
+local chappelle               = {} -- table
 
-
-local match_route = function (req, res, continue)
-	for i, v in ipairs(route_middlewares) do
-		if v.method == req.method then
-			if v.path == req.path then
-				return v
-			end
-		end
-	end
-end
+local application_middlewares = {} -- list
+local routes 								  = {} -- list
 
 -- register a application middleware to be used, ORDER MATTERS!
 function chappelle.use(middleware)
@@ -29,11 +17,12 @@ local create_route = function(method, path, middlewares)
 		middlewares = {middlewares}
 	end
 
-	table.insert(route_middlewares, {
-		path        = path,       -- /uri/with/:placeholders or regexp
+	table.insert(routes, {
+		path        = path,        -- string lik /uri/with/:placeholders or regexp
 		middlewares = middlewares, -- list of functions with (req, res, next) as signature
-		method      = method       -- http method
+		method      = method       -- string with http method
 	})
+
 end
 
 -- auxiliary methods
@@ -46,24 +35,42 @@ function chappelle.post(path, middlewares)
 end
 
 function chappelle.put(path, middlewares)
-	create_route('PUT', route, middlewares)
+	create_route('PUT', path, middlewares)
 end
 
 function chappelle.delete(path, middlewares)
 	create_route('DELETE', path, middlewares)
 end
 
-
 function chappelle.start()
+	log'::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::'
 	-- tables that will be passed to the middleware chain
 	-- to compose req & res objects
 	local req = {}
 	local res = {}
 
-	--match de rota
-	local matched = route_middlewares[1]
+	local middleware_chain = {} -- list
 
-	local middleware_chain = table.concatenate(application_middlewares, matched.middlewares)
+	local connector = table.remove(application_middlewares, 1)
+
+	-- middleware that finds the right route
+	-- matching request path and http method
+	local match_route = function (req, res, continue)
+		for _, route in ipairs(routes) do
+			if route.method == req.method then
+				if route.path == req.path then
+					middleware_chain = table.concatenate(middleware_chain, application_middlewares)
+					middleware_chain = table.concatenate(middleware_chain, route.middlewares)
+					break
+				else -- didnt found match
+					return res.set_status(404).send()
+				end
+			end
+		end
+		continue()
+	end
+
+	middleware_chain = {connector, match_route}
 
 	local current_middleware_index = 0
 

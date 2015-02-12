@@ -1,17 +1,31 @@
 local app   = require('chappelle')
 local nginx = require('connectors/nginx')
 local json  = require('bodyparser')
-require'util'
-
 
 app.use(nginx)
 
-app.use(json())
+local m1 = function(req, res, continue)
+  res.send('I am middleware1!\n')
+  continue()
+end
 
-app.get('/', function (req, res)
-	log'hit "/"'
-  res.send('hello world!')
-end)
+local m2 = function(req, res, continue)
+  res.send('I am middleware2!\n')
+  continue()
+end
+
+local m3 = function(req, res, continue)
+  res.send('I am middleware3!\n')
+  continue()
+end
+
+local m4 = function(req, res, continue)
+  res.finish('I am middleware4!\n')
+end
+
+app.use(m1)
+
+app.get('/teste', {m2, m3, m4})
 
 app.start()
 

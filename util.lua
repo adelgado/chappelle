@@ -81,7 +81,8 @@ function log(text)
     text = 'nil'
   end
 
-  handle:write('\r[chappelle]{' .. os.date("!%Y-%m-%d %H:%m:%S") .. '}: ')
+  local s =  os.date("%Y-%m-%d %H:%M:%S")
+  handle:write('\r{' .. s .. '}[chappelle]: ')
   handle:write(text)
   handle:write('\n')
   handle:flush()

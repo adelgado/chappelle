@@ -1,269 +1,12 @@
+{2015-02-11 22:26:05}[chappelle]: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+{2015-02-11 22:26:05}[chappelle]: is using {nginx} as connector
+{2015-02-11 22:26:05}[chappelle]: I am middleware1!
 
-chappelle: function: 0x41e69068
-chappelle: nginx
-chappelle: table: 0x41e6c610
-chappelle: table: 0x41e6c638
-chappelle: function: 0x41e6c6b8
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: function: 0x4192b068
-chappelle: nginx
-chappelle: table: 0x4192e610
-chappelle: table: 0x4192e638
-chappelle: function: 0x4192e6b8
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx >>>>>>>>>
-chappelle: function: 0x4181a098
-chappelle: nginx
-chappelle: table: 0x4181d670
-chappelle: table: 0x4181d698
-chappelle: function: 0x4181d718
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx >>>>>>>>>
-chappelle: function: 0x41819098
-chappelle: nginx
-chappelle: table: 0x4181c670
-chappelle: table: 0x4181c698
-chappelle: function: 0x4181c718
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx >>>>>>>>>
-chappelle: function: 0x413f4db8
-chappelle: is using nginx as connector
-chappelle: table: 0x413f8678
-chappelle: table: 0x413f86a0
-chappelle: function: 0x413f8720
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-chappelle: nginx >>>>>>>>>
-chappelle: function: 0x4021cdb8
-chappelle: is using nginx as connector
-chappelle: table: 0x40220678
-chappelle: table: 0x402206a0
-chappelle: function: 0x40220720
-chappelle: bodyparser
-chappelle: socorramme estou numa rota
-chappelle: nil
-[chappelle]: nginx >>>>>>>>>
-[chappelle]: function: 0x40366db8
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x4036a678
-[chappelle]: table: 0x4036a6a0
-[chappelle]: nil
-[chappelle]: bodyparser
-[chappelle]: socorramme estou numa rota
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x418f9408
-[chappelle]: table: 0x418f9430
-[chappelle]: nil
-[chappelle]: bodyparser
-[chappelle]: socorramme estou numa rota
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x403b3408
-[chappelle]: table: 0x403b3430
-[chappelle]: nil
-[chappelle]: bodyparser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x40fe2408
-[chappelle]: table: 0x40fe2430
-[chappelle]: nil
-[chappelle]: bodyparser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x41346480
-[chappelle]: table: 0x413464a8
-[chappelle]: nil
-[chappelle]: is using a json body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x41b1d480
-[chappelle]: table: 0x41b1d4a8
-[chappelle]: nil
-[chappelle]: is using a json body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x41e9f480
-[chappelle]: table: 0x41e9f4a8
-[chappelle]: nil
-[chappelle]: is using a [json] body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x41a44480
-[chappelle]: table: 0x41a444a8
-[chappelle]: nil
-[chappelle]: is using a [json] body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x40140480
-[chappelle]: table: 0x401404a8
-[chappelle]: nil
-[chappelle]: is using a [json] body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x40fd0480
-[chappelle]: table: 0x40fd04a8
-[chappelle]: nil
-[chappelle]: is using a [json] body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: is starting :)
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x410e74d0
-[chappelle]: table: 0x410e74f8
-[chappelle]: nil
-[chappelle]: is using a [json] body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: has started :)
-[chappelle]: is using nginx as connector
-[chappelle]: table: 0x41ae94d0
-[chappelle]: table: 0x41ae94f8
-[chappelle]: nil
-[chappelle]: is using a [json] body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: has started :)
-[chappelle]: is using {nginx} as connector
-[chappelle]: table: 0x416594d0
-[chappelle]: table: 0x416594f8
-[chappelle]: nil
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: has {started} :)
-[chappelle]: is using {nginx} as connector
-[chappelle]: table: 0x41e8c4d0
-[chappelle]: table: 0x41e8c4f8
-[chappelle]: nil
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: ::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: socorramme estou numa rota
-[chappelle]: body
-[chappelle]: nil
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: hit "/"
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: delete me!
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: delete me!
-[chappelle]: :::::::::::::::::::::::::::::::::::::
-[chappelle]: has {started}
-[chappelle]: delete me!
-[chappelle]: is using {nginx} as connector
-[chappelle]: is using a {json} body parser
-[chappelle]: hit "/"[chappelle]{2015-01-27 00:01:12}::::::::::::::::::::::::::::::::::::::
-[chappelle]{2015-01-27 00:01:12}:has {started}
-[chappelle]{2015-01-27 00:01:12}:is using {nginx} as connector
-[chappelle]{2015-01-27 00:01:12}:/
-[chappelle]{2015-01-27 00:01:12}:is using a {json} body parser
-[chappelle]{2015-01-27 00:01:12}:hit "/"
-[chappelle]{2015-01-27 00:01:20}::::::::::::::::::::::::::::::::::::::
-[chappelle]{2015-01-27 00:01:20}:has {started}
-[chappelle]{2015-01-27 00:01:20}:is using {nginx} as connector
-[chappelle]{2015-01-27 00:01:20}:/
-[chappelle]{2015-01-27 00:01:20}:is using a {json} body parser
-[chappelle]{2015-01-27 00:01:20}:hit "/"
-[chappelle]{2015-01-27 00:01:51}: :::::::::::::::::::::::::::::::::::::
-[chappelle]{2015-01-27 00:01:51}: has {started}
-[chappelle]{2015-01-27 00:01:51}: is using {nginx} as connector
-[chappelle]{2015-01-27 00:01:51}: /
-[chappelle]{2015-01-27 00:01:51}: is using a {json} body parser
-[chappelle]{2015-01-27 00:01:51}: hit "/"
-[chappelle]{2015-01-27 04:01:49}: :::::::::::::::::::::::::::::::::::::
-[chappelle]{2015-01-27 04:01:49}: has {started}
-[chappelle]{2015-01-27 04:01:49}: is using {nginx} as connector
-[chappelle]{2015-01-27 04:01:49}: /
-[chappelle]{2015-01-27 04:01:49}: is using a {json} body parser
-[chappelle]{2015-01-27 04:01:49}: hit "/"
-[chappelle]{2015-01-27 04:01:51}: :::::::::::::::::::::::::::::::::::::
-[chappelle]{2015-01-27 04:01:51}: has {started}
-[chappelle]{2015-01-27 04:01:51}: is using {nginx} as connector
-[chappelle]{2015-01-27 04:01:51}: /
-[chappelle]{2015-01-27 04:01:51}: is using a {json} body parser
-[chappelle]{2015-01-27 04:01:51}: hit "/"
-[chappelle]{2015-01-27 04:01:51}: :::::::::::::::::::::::::::::::::::::
-[chappelle]{2015-01-27 04:01:51}: has {started}
-[chappelle]{2015-01-27 04:01:51}: is using {nginx} as connector
-[chappelle]{2015-01-27 04:01:51}: /
-[chappelle]{2015-01-27 04:01:51}: is using a {json} body parser
-[chappelle]{2015-01-27 04:01:51}: hit "/"
+{2015-02-11 22:26:05}[chappelle]: I am middleware2!
+
+{2015-02-11 22:26:05}[chappelle]: I am middleware3!
+
+{2015-02-11 22:26:05}[chappelle]: I am middleware4!
+
+{2015-02-11 22:26:10}[chappelle]: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+{2015-02-11 22:26:10}[chappelle]: is using {nginx} as connector

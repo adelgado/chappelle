@@ -4,30 +4,37 @@ GREEN='\e[0;32m'
 RED='\e[0;31m'
 RESET='\e[0m'
 
-ACTION=$1
+start_chappelle() {
+  PATH=/usr/local/openresty/nginx/sbin:$PATH
+  export PATH
+  nginx -p `pwd`/ -c conf/nginx.conf
 
+  if [ $? -ne 0 ]; then
+    echo -e "${RED}[chappelle]${RESET}: cant start nginx with -p $(pwd)/ -c conf/nginx.conf"
+    exit 1
+  fi
+  echo -e "${GREEN}[chappelle]${RESET}: started"
+}
+
+stop_chappelle() {
+  NGINXPID=$(cat logs/nginx.pid)
+  PWD=$(pwd)
+  if [ $? -ne 0 ]; then
+    echo -e "$RED[chappelle]$RESET: cant find 'nginx.pid' at at $PWD/logs"
+    exit 1
+  fi
+  kill -QUIT $NGINXPID
+  echo -e "${GREEN}[chappelle]${RESET}: stopped"
+}
+
+ACTION=$1
 case "$ACTION" in
   start)
-    PATH=/usr/local/openresty/nginx/sbin:$PATH
-    export PATH
-    nginx -p `pwd`/ -c conf/nginx.conf
-
-    if [ $? -ne 0 ]; then
-      echo -e "${RED}[chappelle]${RESET}: cant start nginx with -p $(pwd)/ -c conf/nginx.conf"
-      exit 1
-    fi
-    echo -e "${GREEN}[chappelle]${RESET}: started"
+    start_chappelle
     ;;
 
   stop)
-    NGINXPID=$(cat logs/nginx.pid)
-    PWD=$(pwd)
-    if [ $? -ne 0 ]; then
-      echo -e "$RED[chappelle]$RESET: cant find 'nginx.pid' at at $PWD/logs"
-      exit 1
-    fi
-    kill -QUIT $NGINXPID
-    echo -e "${GREEN}[chappelle]${RESET}: stopped"
+    stop_chappelle
     ;;
 
   restart)
